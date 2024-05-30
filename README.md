@@ -1,5 +1,13 @@
 # CLIPort with Safety Constraints
 
+## Video Demonstration
+
+For a visual demonstration of this project, please refer to the video linked below:
+
+[Project Video Demonstration](https://youtube.com/shorts/_EB557-6mew?feature=share)
+
+[![Project Video Demonstration](https://img.youtube.com/vi/_EB557-6mew/0.jpg)](https://www.youtube.com/watch?v=_EB557-6mew)
+
 ## Overview
 This project aims to build an end-to-end system capable of taking a linguistic goal and executing it in a real-world scenario. The system leverages the CLEVR dataset and Transporter Networks to process images and translate them into end-effector poses. The primary objective is to handle various daily objects with different shapes, sizes, and colors without predefined object classes. Additionally, we incorporate safety constraints to ensure the robot avoids forbidden regions while performing tasks.
 
@@ -48,9 +56,14 @@ An evaluation matrix was created to track the number of trajectory points passin
 ### Evaluation Metrics:
 - **Trajectory Points**: Number of points passing through the forbidden region.
 - **Episodes**: Number of successful task completions.
+<img width="367" alt="evaluation" src="https://github.com/dheerajkallakuri/CLIPort-with-Safety-Constraints/assets/23552796/c1ca014c-b23c-45c7-b1c8-0e21d2a398e2">
+
 
 ## Results
 The results are visualized through a graph showing the number of episodes against the trajectory points through the obstacle region for 100 episodes. Our goal is to minimize these points, indicating successful avoidance of forbidden regions.
+
+<img width="478" alt="compare" src="https://github.com/dheerajkallakuri/CLIPort-with-Safety-Constraints/assets/23552796/ff36f600-dea2-4443-a0b2-918ca5b54e86">
+
 
 ## Links
 - **CLIPort GitHub Repository**: [CLIPort GitHub](https://github.com/cliport/cliport)
